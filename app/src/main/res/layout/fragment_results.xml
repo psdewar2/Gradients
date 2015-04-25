@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GradientsActivity">
+
+    <TextView
+        android:id="@+id/bs_TextView"
+        android:text="@string/results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/hueView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:background="#000"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:id="@+id/satView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:background="#000"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/valView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:background="#000"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/similarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/similar"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gradients</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rgb_hex_code">color_rgb_hexcode</string>
+    <string name="color_name">color_name</string>
+    <string name="add_next_color">Add Next Color</string>
+    <string name="no_more_colors">Sorry, there are no more colors to add.</string>
+    <string name="title_activity_gradients">GradientsActivity</string>
+    <string name="hues">Hues</string>
+    <string name="sats">Saturations</string>
+    <string name="vals">Values</string>
+    <string name="reset">Reset</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="results">Selected Gradient</string>
+    <string name="similar">Similar Colors</string>
+</resources>
